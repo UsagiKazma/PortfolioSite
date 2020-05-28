@@ -912,7 +912,7 @@
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: $size-header-width;
 
@@ -994,7 +994,7 @@
 		width: calc(100% - #{$size-header-width});
 
 		> section {
-			border-top: solid 2px _palette(border);
+			border-top: solid 2px #A64A75;
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
 
