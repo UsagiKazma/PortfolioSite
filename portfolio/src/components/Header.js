@@ -20,6 +20,7 @@ const Header = () => (
       </h1>
     </div>
     </Animated>
+    
     <Footer />
    
   </header>

@@ -26,7 +26,7 @@ const HomeIndex = () => {
           <h2>Projects</h2>
 
           <Gallery />
-
+          
         </section>
 
         <section id="three">
