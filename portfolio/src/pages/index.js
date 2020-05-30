@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
+import avatar from '../assets/images/avatar.jpg'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
@@ -20,6 +21,10 @@ const HomeIndex = () => {
         
         <section id="one">
           <h2>About Me</h2>
+          <a href="#" className="image avatar">
+          <img src={avatar}/>
+          </a>
+          <p>Originally from Queens, NY, now located in Miami, FL. I tend to approach situations from an analytical perspective. Currently I'm attending the General Assembly Software Engineering Immersive course and I'm looking to continue to sharpen my skills after graduation. I approach each situation and enjoy the satisfaction of learning something if for nothing else than to improve past projects. I look forward to hearing from you!</p>
         </section>
 
         <section id="two">
