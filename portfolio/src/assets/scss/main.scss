@@ -92,7 +92,9 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: white;
+		background: linear-gradient(180deg, rgba(246,174,6,1) 25%, rgba(215,73,129,1) 48%, rgba(176,15,161,1) 69%);
+		-webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
 		font-weight: _font(weight-bold);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
