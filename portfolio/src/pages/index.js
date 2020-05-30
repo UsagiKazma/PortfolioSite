@@ -15,6 +15,7 @@ const HomeIndex = () => {
         <title>{siteTitle}</title>
         <meta name="description" content={siteDescription} />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet"></link>
       </Helmet>
 
       <div id="main">
