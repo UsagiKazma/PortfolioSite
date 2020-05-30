@@ -8,7 +8,7 @@ const Header = () => (
   <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={1000} animationOutDuration={1000} isVisible={true}>
     <div className="inner">
       <h1>
-        Hello i'm Juan im a Full-Stack Developer.
+        Hello i'm Juan a Full-Stack Developer.
       </h1>
     </div>
     </Animated>
