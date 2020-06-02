@@ -110,6 +110,7 @@
 	h1 {
 		font-size: 2em;
 		line-height: 1.5em;
+		text-align: center;
 	}
 
 	h2 {
@@ -999,7 +1000,7 @@
 		width: calc(100% - #{$size-header-width});
 
 		> section {
-			border-top: solid 2px #DD1F90;
+			border-top: solid 2px #00aeff;
 			margin: $size-header-pad 0 0 0;
 			padding: $size-header-pad 0 0 0;
 

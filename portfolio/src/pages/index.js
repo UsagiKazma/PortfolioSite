@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 
 const HomeIndex = () => {
   const siteTitle = 'Juan Guzman'
-  const siteDescription = 'Full Stack Developer'
+  const siteDescription = 'Jr Full Stack Developer'
 
   return (
     <Layout>
@@ -21,22 +21,22 @@ const HomeIndex = () => {
       <div id="main">
         
         <section id="one">
-          <h2>About Me</h2>
+          <h1>About Me</h1>
           <a href="#" className="image avatar">
-          <img src={avatar}/>
+          <img src="https://res.cloudinary.com/dbrdhogvw/image/upload/v1584213627/Screen_Shot_2020-03-14_at_3.19.12_PM_ozq0ur.png"/>
           </a>
           <p>Originally from Queens, NY, now located in Miami, FL. I tend to approach situations from an analytical perspective. Currently I'm attending the General Assembly Software Engineering Immersive course and I'm looking to continue to sharpen my skills after graduation. I approach each situation and enjoy the satisfaction of learning something if for nothing else than to improve past projects. I look forward to hearing from you!</p>
         </section>
 
         <section id="two">
-          <h2>Projects</h2>
+          <h1>Projects</h1>
 
           <Gallery />
           
         </section>
 
         <section id="three">
-          <h2>Contact Me</h2>
+          <h1>Contact Me</h1>
 
           <div className="row">
             <div className="8u 12u$(small)">
