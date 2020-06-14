@@ -31,7 +31,7 @@ const GalleryItem = ({
         <a className="image fit thumb" href={source}>
           <img src={thumbnail} />
         </a>
-        <h3>{caption}</h3>
+        <h2>{caption}</h2>
         <p>{description}</p>
       </Animated>
     </article>
