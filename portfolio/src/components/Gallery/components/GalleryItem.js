@@ -28,8 +28,8 @@ const GalleryItem = ({
         animationOutDuration={1000}
         isVisible={true}
       >
-        <a className="image fit thumb" href={source} onClick={onClick}>
-          <img src={source} />
+        <a className="image fit thumb" href={source}>
+          <img src={thumbnail} />
         </a>
         <h3>{caption}</h3>
         <p>{description}</p>

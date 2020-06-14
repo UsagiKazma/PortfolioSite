@@ -1,48 +1,41 @@
-import full01 from '../../../assets/images/fulls/01.jpg'
-import full02 from '../../../assets/images/fulls/02.jpg'
-import full03 from '../../../assets/images/fulls/03.jpg'
-import full04 from '../../../assets/images/fulls/04.jpg'
-import full05 from '../../../assets/images/fulls/05.jpg'
-import full06 from '../../../assets/images/fulls/06.jpg'
 import thumb02 from '../../../assets/images/thumbs/02.jpg'
 import thumb01 from '../../../assets/images/thumbs/01.jpg'
 import thumb03 from '../../../assets/images/thumbs/03.jpg'
 import thumb04 from '../../../assets/images/thumbs/04.jpg'
 import thumb05 from '../../../assets/images/thumbs/05.jpg'
-import thumb06 from '../../../assets/images/thumbs/06.jpg'
 
 export const DEFAULT_IMAGES = [
   {
     id: '1',
-    source: full01,
+    source: 'https://stoic-brattain-3b1e8d.netlify.app/',
     thumbnail: thumb01,
     caption: 'Dont Panic',
     description: '',
   },
   {
     id: '2',
-    source: full02,
+    source: 'https://codesandbox.io/s/giphy-qqz3d',
     thumbnail: thumb02,
     caption: 'Giphy',
     description: '',
   },
   {
     id: '3',
-    source: full03,
+    source: 'https://codesandbox.io/s/weather-app-pi8sv',
     thumbnail: thumb03,
     caption: 'Weather App',
     description: '',
   },
   {
     id: '4',
-    source: full04,
+    source: 'https://codesandbox.io/s/films-app-real-eqrvj',
     thumbnail: thumb04,
     caption: 'Movie App',
     description: '',
   },
   {
     id: '5',
-    source: full05,
+    source: 'https://sharp-swanson-12aaae.netlify.app/',
     thumbnail: thumb05,
     caption: 'Monster Hunter App',
     description: '',
