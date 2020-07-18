@@ -13,7 +13,7 @@ const Header = () => (
       isVisible={true}
     >
       <div className="inner">
-        <h1>Jr Full-Stack Developer.</h1>
+        <h1>Full-Stack Software Developer.</h1>
       </div>
     </Animated>
 

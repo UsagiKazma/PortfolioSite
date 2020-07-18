@@ -27,9 +27,6 @@ const HomeIndex = () => {
       <div id="main">
         <section id="one">
           <h1>About Me</h1>
-          <a href="#" className="image avatar">
-            <img src="https://res.cloudinary.com/dbrdhogvw/image/upload/v1584213627/Screen_Shot_2020-03-14_at_3.19.12_PM_ozq0ur.png" />
-          </a>
           <p>
             Originally from Queens, NY, now located in Miami, FL. I tend to
             approach situations from an analytical perspective. Currently I'm
