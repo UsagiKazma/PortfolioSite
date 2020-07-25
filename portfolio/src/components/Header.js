@@ -1,5 +1,5 @@
 import React from 'react'
-
+import avatar from '../assets/images/avatar.png'
 import Footer from './Footer'
 import { Animated } from 'react-animated-css'
 
@@ -13,7 +13,8 @@ const Header = () => (
       isVisible={true}
     >
       <div className="inner">
-        <h1>Full-Stack Software Developer.</h1>
+        <img src={avatar} />
+        <h2>Full Stack Software Developer</h2>
       </div>
     </Animated>
 

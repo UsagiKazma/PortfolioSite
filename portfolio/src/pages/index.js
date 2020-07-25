@@ -1,13 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 
-import avatar from '../assets/images/avatar.jpg'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
   const siteTitle = 'Juan Guzman'
-  const siteDescription = 'Jr Full Stack Developer'
+  const siteDescription = 'Full Stack Web Developer'
 
   return (
     <Layout>
@@ -19,7 +18,7 @@ const HomeIndex = () => {
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
         ></link>
         <link
-          href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
           rel="stylesheet"
         ></link>
       </Helmet>
@@ -29,12 +28,10 @@ const HomeIndex = () => {
           <h1>About Me</h1>
           <p>
             Originally from Queens, NY, now located in Miami, FL. I tend to
-            approach situations from an analytical perspective. Currently I'm
-            attending the General Assembly Software Engineering Immersive course
-            and I'm looking to continue to sharpen my skills after graduation. I
-            approach each situation and enjoy the satisfaction of learning
-            something if for nothing else than to improve past projects. I look
-            forward to hearing from you!
+            approach situations from an analytical perspective.I approach each
+            situation and enjoy the satisfaction of learning something if for
+            nothing else than to improve past projects. I look forward to
+            hearing from you!
           </p>
         </section>
 

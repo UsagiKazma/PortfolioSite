@@ -52,7 +52,7 @@ $size-header-pad: 4em;
 /* Basic */
 
 body {
-  background: #171718;
+  background: #f1f1f3;
 
   &.is-loading {
     *,
@@ -107,7 +107,7 @@ i {
 
 p {
   margin: 0 0 _size(element-margin) 0;
-  color: white;
+  color: black;
 }
 
 h1,
@@ -116,18 +116,13 @@ h3,
 h4,
 h5,
 h6 {
-  background: linear-gradient(
-    180deg,
-    rgba(246, 174, 6, 1) 25%,
-    rgba(215, 73, 129, 1) 48%,
-    rgba(176, 15, 161, 1) 69%
-  );
+  background: #292929;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: _font(weight-bold);
   line-height: 1em;
   margin: 0 0 (_size(element-margin) * 0.5) 0;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 
   a {
@@ -145,6 +140,7 @@ h1 {
 h2 {
   font-size: 1.5em;
   line-height: 1.5em;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
@@ -952,8 +948,8 @@ input[type='button'],
   @include vendor('justify-content', 'space-between');
   background-color: _palette(accent2, bg);
   background-attachment: scroll, fixed;
-  background-image: url('images/overlay.png'),
-    url('https://media1.giphy.com/media/cOzK12kNVHoiOLYX6P/source.gif');
+  background-image: url(''),
+    url('https://images.unsplash.com/photo-1510739859545-e7b9e979de86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80');
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 100%;
@@ -1050,7 +1046,7 @@ input[type='button'],
   width: calc(100% - #{$size-header-width});
 
   > section {
-    border-top: solid 2px #00aeff;
+    border-top: solid 2px #676b6d;
     margin: $size-header-pad 0 0 0;
     padding: $size-header-pad 0 0 0;
 
@@ -1261,7 +1257,7 @@ body.is-touch {
 /* Large */
 
 @include breakpoint(large) {
-  $size-header-width: 30%;
+  $size-header-width: 25%;
   $size-header-pad: 3em;
 
   /* Header */
@@ -1275,7 +1271,7 @@ body.is-touch {
       font-size: 1.8em;
       margin-top: 40%;
       color: white;
-      font-family: 'Permanent Marker', cursive;
+      font-family: 'Roboto', sans-serif;
 
       br {
         display: none;
