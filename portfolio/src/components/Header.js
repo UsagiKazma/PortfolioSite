@@ -13,7 +13,6 @@ const Header = () => (
       isVisible={true}
     >
       <div className="inner">
-        <img src={avatar} />
         <h2>Full Stack Software Developer</h2>
       </div>
     </Animated>

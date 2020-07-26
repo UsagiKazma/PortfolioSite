@@ -52,7 +52,7 @@ $size-header-pad: 4em;
 /* Basic */
 
 body {
-  background: #f1f1f3;
+  background: #242424;
 
   &.is-loading {
     *,
@@ -116,13 +116,11 @@ h3,
 h4,
 h5,
 h6 {
-  background: #292929;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: white;
   font-weight: _font(weight-bold);
   line-height: 1em;
   margin: 0 0 (_size(element-margin) * 0.5) 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 
   a {
@@ -949,7 +947,7 @@ input[type='button'],
   background-color: _palette(accent2, bg);
   background-attachment: scroll, fixed;
   background-image: url(''),
-    url('https://images.unsplash.com/photo-1510739859545-e7b9e979de86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1867&q=80');
+    url('https://c.pshere.com/photos/ef/18/abstract_acrylic_art_artistic_background_black_black_background_blend-1001025.jpg!d');
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 100%;
